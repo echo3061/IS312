@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Personal Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+    </header>
+    
+    <section id="bio">
+        <h2>Biography</h2>
+        <img src="your-portrait.jpg" alt="Your Portrait" id="portrait">
+        <p>Short bio about yourself. This could include information such as your interests, hobbies, and personal background.</p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p><strong>Degree:</strong> Bachelor of Science in Computer Science (or your degree)</p>
+        <p><strong>Institution:</strong> California State University, Northridge (or your university)</p>
+        <p><strong>Year of Graduation:</strong> 2025 (or your graduation year)</p>
+    </section>
+
+    <section id="work-experience">
+        <h2>Work Experience</h2>
+        <p>Previous work experience, internships, or relevant projects.</p>
+    </section>
+
+    <section id="career-interests">
+        <h2>Career Interests</h2>
+        <p>Describe your career interests and what field you are hoping to work in after graduation.</p>
+    </section>
+
+    <section id="courses">
+        <h2>Courses This Semester</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Catalog #</th>
+                    <th>Course Name</th>
+                    <th>Offering ID</th>
+                    <th>Section</th>
+                    <th>No. of Credits</th>
+                    <th>Days of Meeting</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>CS 101</td>
+                    <td>Introduction to Computer Science</td>
+                    <td>12345</td>
+                    <td>A</td>
+                    <td>3</td>
+                    <td>MWF</td>
+                </tr>
+                <tr>
+                    <td>CS 201</td>
+                    <td>Data Structures</td>
+                    <td>67890</td>
+                    <td>B</td>
+                    <td>3</td>
+                    <td>TR</td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
